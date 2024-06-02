@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-// import './Scss/main.scss';
+import './scss/main.scss';
 import Home from './components/pages/home';
 import About from './components/pages/about';
 

@@ -1,9 +1,11 @@
-import About from "../about";
+import Footer from '../../layout/footer';
+import Header from '../../layout/header'
 const Home = () => {
     return (
-        <div className="">
+        <div className="home">
+            <Header/>
             Home
-            <About/>
+            <Footer/>
         </div>
     )
 }
